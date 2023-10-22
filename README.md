@@ -9,7 +9,7 @@ By default, no animation is show. ***To Blue*** button allow change the color of
 
 To Blue ***=>*** ball color is red.
 
-To Red ***=>*** bal color is blue.
+To Red ***=>*** ball color is blue.
 
 ***Reset*** button hide animation and set button caption equal to: ***To Blue***.
 

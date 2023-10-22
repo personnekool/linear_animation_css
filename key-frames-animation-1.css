@@ -1,0 +1,54 @@
+@keyframes go-right {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(calc(50vw - 1rem));
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes end-right {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(calc(100vw - 1rem));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes go-left {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(calc(-50% - 1rem));
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes end-left {
+  0%{transform: translateX(0);}
+  50%{transform: translateX(calc(-100% + 1rem));}
+  100%{transform: translateX(0);}
+}
+@keyframes center-right-left {
+  0%{transform: translateX(0%);}
+  25%{transform: translateX(calc(50% - 0.5rem));}
+  75%{transform: translateX(calc(-50% + 0.5rem));}
+  100%{transform: translateX(0%);}
+}
+@keyframes center-left-right {
+  0%{transform: translateX(0%);}
+  25%{transform: translateX(calc(-50% + 0.5rem));}
+  75%{transform: translateX(cacl(50% - 0.5rem));}
+  100%{transform: translateX(0%);}
+}

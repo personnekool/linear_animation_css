@@ -1,0 +1,94 @@
+@import url(./key-frames-animation-1.css);
+:root{
+  --iter-time:10s;
+  --iter-count:1;
+  --delay:2s;
+}
+body{
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+header{
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3rem;
+}
+.container{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+button{
+  background-color: grey;
+  border-radius: 20%;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.c-b{
+  background-color: blue;
+}
+.c-r{
+  background-color: red;
+}
+.dot {
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+
+/*Animation definitions start here*/
+.anim-1 {
+  animation-name: go-right;
+  animation-duration: var(--iter-time);
+  animation-iteration-count: 3;
+  animation-delay: var(--delay);
+}
+.anim-2 {
+  animation-name: end-right;
+  animation-duration: var(--iter-time);
+  animation-iteration-count: 1;
+  animation-delay: var(--delay);
+}
+.anim-3{
+  animation-name: go-left;
+  animation-duration: var(--iter-time);
+  animation-iteration-count: 1;
+  animation-delay: var(--delay);
+  display: flex;
+  justify-content: end;
+}
+.anim-4{
+  animation-name: end-left;
+  animation-duration: var(--iter-time);
+  animation-iteration-count: 1;
+  animation-delay: var(--delay);
+  display: flex;
+  justify-content: end;
+}
+.anim-5{
+  animation-name: center-right-left;
+  animation-duration: var(--iter-time);
+  animation-iteration-count: 1;
+  animation-delay: var(--delay);
+  display: flex;
+  justify-content: center;
+}
+.anim-6{
+  animation-name: center-left-right;
+  animation-duration: var(--iter-time);
+  animation-iteration-count: 1;
+  animation-delay: var(--delay);
+  display: flex;
+  justify-content: center;
+}
